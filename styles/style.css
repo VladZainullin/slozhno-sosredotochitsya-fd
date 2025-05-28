@@ -5,6 +5,32 @@
   background-color: var(--midnight-blue);
 }
 
+.header {
+  background-image: url("images/cover-image-dark.png");
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  color: var(--vivid-raspberry);
+}
+
+.header__theme-menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.header__theme-menu-button {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border-color: var(--vivid-raspberry);
+  border-style: solid;
+  border-width: 1px;
+  background-color: transparent;
+  text-transform: lowercase;
+
+}
+
 .text {
   font-family: IBM Plex Mono, sans-serif;
   font-size: 18px;
