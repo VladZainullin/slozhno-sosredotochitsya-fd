@@ -3,3 +3,42 @@
 .page {
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
 }
+
+.footer {
+  background-color: #000028;
+  padding: 10px;
+  min-block-size: 668px;
+  min-inline-size: 375px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  color: #DB00FF;
+  text-shadow: 2px 2px #FF0070;
+  font-family: IBM Plex Mono, sans-serif;
+  font-weight: 700;
+  font-size: 120px;
+  line-height: 83%;
+  letter-spacing: 0;
+  margin: auto;
+}
+
+.angular {
+  border-color: #FF0070;
+  border-style: solid;
+  block-size: 25px;
+  inline-size: 25px;
+}
+
+.angular__top-right {
+  align-self: end;
+  border-bottom: none;
+  border-left: none;
+}
+
+.angular__bottom-left {
+  align-self: start;
+  border-top: none;
+  border-right: none;
+}
