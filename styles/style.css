@@ -2,7 +2,35 @@
 
 .page {
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
-  background-color: #000028;
+  background-color: var(--midnight-blue);
+}
+
+.text {
+  font-family: IBM Plex Mono, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23.4px;
+  letter-spacing: 0;
+}
+
+.text_bold {
+  font-weight: 700;
+}
+
+.text_color_vivid-raspberry {
+  color: var(--vivid-raspberry);
+}
+
+.text_background-color_vivid-raspberry {
+  background-color: var(--vivid-raspberry);
+}
+
+.text_color_powder-pink {
+  color: var(--powder-pink);
+}
+
+.text_color_midnight-blue {
+  color: var(--midnight-blue);
 }
 
 .main {
@@ -16,13 +44,8 @@
 }
 
 .motivational-images__title {
-  font-family: IBM Plex Mono, sans-serif;
-  background-color: #FF0070;
-  color: #000028;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 23.4px;
-  letter-spacing: 0;
+  background-color: var(--vivid-raspberry);
+  color: var(--midnight-blue);
 }
 
 .sunset {
@@ -59,8 +82,8 @@
 }
 
 .title {
-  color: #DB00FF;
-  text-shadow: 2px 2px #FF0070;
+  color: var(--electric-purple);
+  text-shadow: 2px 2px var(--vivid-raspberry);
   font-family: IBM Plex Mono, sans-serif;
   font-weight: 700;
   font-size: 120px;
@@ -70,7 +93,7 @@
 }
 
 .angular {
-  border-color: #FF0070;
+  border-color: var(--vivid-raspberry);
   border-style: solid;
   block-size: 25px;
   inline-size: 25px;
