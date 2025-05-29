@@ -3,3 +3,11 @@
 .page {
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
 }
+
+.lamp {
+  border-radius: 100%;
+  background-color: var(--vivid-raspberry);
+  block-size: 9px;
+  inline-size: 9px;
+  box-shadow: 0 0 4px 2px #FF0070;
+}
