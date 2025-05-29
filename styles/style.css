@@ -11,6 +11,7 @@
   display: flex;
   flex-direction: column;
   color: var(--vivid-raspberry);
+  margin-bottom: 40px;
 }
 
 .header__theme-menu-list {
