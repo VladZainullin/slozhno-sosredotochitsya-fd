@@ -16,7 +16,6 @@
   background-position: center;
   background-size: cover;
   min-block-size: max(100vh, 668px);
-  padding: 10px;
 }
 
 .lamp {
