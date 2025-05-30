@@ -1,15 +1,15 @@
-/* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
-
 .page {
-  /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
   background-color: var(--midnight-blue);
-  font-family: var(--font-family), sans-serif;
-  line-height: 23.4px;
   padding: 10px;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   gap: 40px;
+}
+
+.text {
+  font-family: var(--font-family), sans-serif;
+  line-height: 23.4px;
 }
 
 .header {
