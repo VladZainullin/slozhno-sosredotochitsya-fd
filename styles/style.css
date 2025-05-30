@@ -138,10 +138,20 @@
 .recommendations__content {
   gap: 20px;
 }
-
 .recommendation-images {
   display: grid;
   gap: 10px;
+}
+
+.recommendation-images__item {
+  inline-size: calc(100vw - 20px);
+}
+
+.recommendation-images__image {
+  block-size: 100%;
+  inline-size: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 .recommendation-images__content {
@@ -150,6 +160,9 @@
 
 .footer {
   min-block-size: max(100vh, 668px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer__title {
