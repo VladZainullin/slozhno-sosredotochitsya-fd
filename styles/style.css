@@ -128,6 +128,16 @@
   color: var(--vivid-raspberry);
 }
 
+.recommendations__description {
+  font-family: IBM Plex Mono, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23.4px;
+  letter-spacing: 0;
+  color: var(--midnight-blue);
+  background-color: var(--vivid-raspberry);
+}
+
 .recommendation-images {
   display: grid;
   gap: 10px;
