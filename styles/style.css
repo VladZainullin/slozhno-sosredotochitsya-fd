@@ -4,10 +4,19 @@
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
 }
 
+.header {
+  background-image: url('../images/cover-image.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-block-size: max(100vh, 375px);
+  padding: 10px;
+}
+
 .lamp {
   border-radius: 100%;
   background-color: var(--vivid-raspberry);
   block-size: 9px;
   inline-size: 9px;
-  box-shadow: 0 0 4px 2px #FF0070;
+  box-shadow: 0 0 4px 2px var(--vivid-raspberry);
 }
