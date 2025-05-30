@@ -33,7 +33,6 @@
 
 .header__description {
   font-weight: 700;
-  font-size: 18px;
   line-height: 23.4px;
   letter-spacing: 0;
   background-color: var(--vivid-raspberry);
@@ -62,7 +61,6 @@
 
 .difficulties__title {
   font-weight: 700;
-  font-size: 18px;
   line-height: 23.4px;
   letter-spacing: 0;
   color: var(--vivid-raspberry);
@@ -76,7 +74,6 @@
 
 .card {
   font-weight: 400;
-  font-size: 18px;
   line-height: 23.4px;
   letter-spacing: 0;
 }
@@ -104,7 +101,6 @@
 
 .factors__title {
   font-weight: 700;
-  font-size: 18px;
   line-height: 23.4px;
   letter-spacing: 0;
   color: var(--vivid-raspberry);
@@ -117,7 +113,6 @@
 
 .recommendations__title {
   font-weight: 700;
-  font-size: 18px;
   line-height: 23.4px;
   letter-spacing: 0;
   color: var(--vivid-raspberry);
@@ -125,7 +120,6 @@
 
 .recommendations__description {
   font-weight: 700;
-  font-size: 18px;
   line-height: 23.4px;
   letter-spacing: 0;
   color: var(--midnight-blue);
