@@ -34,16 +34,17 @@
   color: var(--electric-purple);
 }
 
-.factors {
+.difficulties {
   display: grid;
 }
 
-.factors__title {
+.difficulties__title {
   font-family: IBM Plex Mono, sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 23.4px;
   letter-spacing: 0;
+  color: var(--vivid-raspberry);
 }
 
 .card {
@@ -67,6 +68,32 @@
 
 .card__description-link {
   text-shadow: 2px 2px var(--vivid-raspberry);
+}
+
+.factors {
+  display: grid;
+}
+
+.factors__title {
+  font-family: IBM Plex Mono, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23.4px;
+  letter-spacing: 0;
+  color: var(--vivid-raspberry);
+}
+
+.recommendations {
+  display: grid;
+}
+
+.recommendations__title {
+  font-family: IBM Plex Mono, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23.4px;
+  letter-spacing: 0;
+  color: var(--vivid-raspberry);
 }
 
 .footer__title {
