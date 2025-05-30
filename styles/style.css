@@ -45,6 +45,7 @@
   font-size: 116px;
   line-height: 83%;
   letter-spacing: 0;
+  text-transform: lowercase;
   color: var(--electric-purple);
 }
 
