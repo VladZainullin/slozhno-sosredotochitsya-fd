@@ -34,7 +34,6 @@
 
 .header__description {
   font-weight: 700;
-  letter-spacing: 0;
   background-color: var(--vivid-raspberry);
 }
 
@@ -42,7 +41,6 @@
   font-weight: 700;
   font-size: 116px;
   line-height: 83%;
-  letter-spacing: 0;
   text-transform: lowercase;
   color: var(--electric-purple);
 }
@@ -61,7 +59,6 @@
 
 .difficulties__title {
   font-weight: 700;
-  letter-spacing: 0;
   color: var(--vivid-raspberry);
 }
 
@@ -73,7 +70,6 @@
 
 .card {
   font-weight: 400;
-  letter-spacing: 0;
 }
 
 .card__title {
@@ -99,7 +95,6 @@
 
 .factors__title {
   font-weight: 700;
-  letter-spacing: 0;
   color: var(--vivid-raspberry);
 }
 
@@ -110,13 +105,11 @@
 
 .recommendations__title {
   font-weight: 700;
-  letter-spacing: 0;
   color: var(--vivid-raspberry);
 }
 
 .recommendations__description {
   font-weight: 700;
-  letter-spacing: 0;
   color: var(--midnight-blue);
   background-color: var(--vivid-raspberry);
 }
