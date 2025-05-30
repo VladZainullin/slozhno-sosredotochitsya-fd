@@ -25,6 +25,15 @@
   text-shadow: 4px 4px var(--vivid-raspberry);
 }
 
+.header__description {
+  font-family: IBM Plex Mono, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23.4px;
+  letter-spacing: 0;
+  background-color: var(--vivid-raspberry);
+}
+
 .title {
   font-family: IBM Plex Mono, sans-serif;
   font-weight: 700;
