@@ -70,13 +70,10 @@
   color: var(--vivid-raspberry);
 }
 
-.difficulties__content {
-  gap: 20px;
-}
-
 .card-list {
   display: flex;
   flex-direction: column;
+  gap: 20px;
 }
 
 .card {
@@ -117,10 +114,6 @@
   color: var(--vivid-raspberry);
 }
 
-.factors__content {
-  gap: 20px;
-}
-
 .recommendations {
   display: grid;
   gap: 20px;
@@ -135,9 +128,6 @@
   color: var(--vivid-raspberry);
 }
 
-.recommendations__content {
-  gap: 20px;
-}
 .recommendation-images {
   display: grid;
   gap: 10px;
