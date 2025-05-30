@@ -5,7 +5,7 @@
 }
 
 .header {
-  background-image: url('../images/cover-image.png');
+  background-image: url('../images/cover-image-dark.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -14,9 +14,26 @@
 }
 
 .lamp {
-  border-radius: 100%;
+  border-radius: 50%;
   background-color: var(--vivid-raspberry);
   block-size: 9px;
   inline-size: 9px;
   box-shadow: 0 0 4px 2px var(--vivid-raspberry);
+}
+
+.header__title {
+  text-shadow: 4px 4px var(--vivid-raspberry);
+}
+
+.title {
+  font-family: IBM Plex Mono, sans-serif;
+  font-weight: 700;
+  font-size: 116px;
+  line-height: 83%;
+  letter-spacing: 0;
+  color: var(--electric-purple);
+}
+
+.footer__title {
+  text-shadow: 2px 2px var(--vivid-raspberry);
 }
