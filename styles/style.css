@@ -21,6 +21,17 @@
 }
 
 .lamp {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.lamp__title {
+  color: var(--vivid-raspberry);
+  text-transform: uppercase;
+}
+
+.lamp_point {
   border-radius: 50%;
   background-color: var(--vivid-raspberry);
   block-size: 9px;
