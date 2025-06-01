@@ -25,18 +25,21 @@
   background-size: cover;
   display: grid;
   grid-template-columns: 1fr;
+  grid-template-rows: 1fr min-content 1fr min-content 1fr min-content 1fr;
   min-block-size: max(100vh, 668px);
 }
 
-.lamp {
+.rec {
+  align-self: start;
+  justify-self: end;
+  align-items: center;
   display: flex;
   gap: 10px;
-  align-items: center;
   color: var(--vivid-raspberry);
   text-transform: uppercase;
 }
 
-.lamp::after {
+.rec::after {
   content: "";
   border-radius: 50%;
   background-color: var(--vivid-raspberry);
@@ -46,6 +49,7 @@
 }
 
 .header__theme-menu-list {
+  grid-row: 3 / span 1;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -72,10 +76,12 @@
 }
 
 .header__title {
+  grid-row: 4 / span 1;
   text-shadow: 4px 4px var(--vivid-raspberry);
 }
 
 .header__description {
+  grid-row: 6 / span 1;
   height: fit-content;
   justify-self: end;
   font-weight: 700;
