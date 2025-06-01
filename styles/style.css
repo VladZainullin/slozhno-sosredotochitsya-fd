@@ -121,6 +121,14 @@
   text-decoration: none;
 }
 
+.card__description-link:hover {
+  border-bottom: 1px solid var(--powder-pink);
+}
+
+.card__description-link:focus-visible {
+  outline: 1px solid currentColor;
+}
+
 .factors {
   display: grid;
   flex-direction: column;
