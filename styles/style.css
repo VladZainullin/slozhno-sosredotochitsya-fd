@@ -5,7 +5,7 @@
   flex-direction: column;
   flex-wrap: nowrap;
   gap: 40px;
-  background-image: url('../images/cover-image-dark.png');
+  background-image: var(--bg-image);
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
