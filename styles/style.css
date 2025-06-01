@@ -179,6 +179,11 @@
   gap: 10px;
 }
 
+.gallery__title {
+  font-weight: 700;
+  background-color: var(--vivid-raspberry);
+}
+
 .gallery__item {
   inline-size: calc(100vw - 20px);
   block-size: auto;
@@ -192,6 +197,7 @@
 }
 
 .gallery__content {
+  display: grid;
   gap: 10px;
 }
 
