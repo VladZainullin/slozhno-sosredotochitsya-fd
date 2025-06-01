@@ -17,21 +17,21 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  display: grid;
+  grid-template-columns: 1fr;
   min-block-size: max(100vh, 668px);
 }
 
 .lamp {
   display: flex;
-  align-items: center;
   gap: 10px;
-}
-
-.lamp__title {
+  align-items: center;
   color: var(--vivid-raspberry);
   text-transform: uppercase;
 }
 
-.lamp_point {
+.lamp::after {
+  content: "";
   border-radius: 50%;
   background-color: var(--vivid-raspberry);
   block-size: 9px;
