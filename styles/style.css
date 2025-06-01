@@ -152,6 +152,7 @@
 
 .gallery__item {
   inline-size: calc(100vw - 20px);
+  block-size: auto;
 }
 
 .gallery__image {
