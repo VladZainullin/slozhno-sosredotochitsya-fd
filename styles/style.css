@@ -10,6 +10,8 @@
 .text {
   font-family: var(--font-family), sans-serif;
   line-height: 23.4px;
+  text-rendering: optimizeSpeed;
+  font-size: 1.8rem;
 }
 
 .header {
@@ -39,6 +41,23 @@
   box-shadow: 0 0 4px 2px var(--vivid-raspberry);
 }
 
+.header__theme-menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-self: end;
+}
+
+.header__theme-menu-button {
+  block-size: 26px;
+  inline-size: 70px;
+  text-transform: lowercase;
+  appearance: none;
+  border: none;
+  color: var(--vivid-raspberry);
+  background-color: transparent;
+}
+
 .header__title {
   text-shadow: 4px 4px var(--vivid-raspberry);
 }
@@ -50,7 +69,7 @@
 
 .title {
   font-weight: 700;
-  font-size: 116px;
+  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 83%;
   text-transform: lowercase;
   color: var(--electric-purple);
