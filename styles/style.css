@@ -126,23 +126,23 @@
   background-color: var(--vivid-raspberry);
 }
 
-.recommendation-images {
+.gallery {
   display: grid;
   gap: 10px;
 }
 
-.recommendation-images__item {
+.gallery__item {
   inline-size: calc(100vw - 20px);
 }
 
-.recommendation-images__image {
+.gallery__image {
   block-size: 100%;
   inline-size: 100%;
   object-fit: cover;
   object-position: center;
 }
 
-.recommendation-images__content {
+.gallery__content {
   gap: 10px;
 }
 
