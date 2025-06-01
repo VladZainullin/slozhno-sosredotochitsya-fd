@@ -95,6 +95,7 @@
 
 .card__description-link {
   text-shadow: 2px 2px var(--vivid-raspberry);
+  text-decoration: none;
 }
 
 .factors {
