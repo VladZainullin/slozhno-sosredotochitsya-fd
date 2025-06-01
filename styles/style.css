@@ -76,6 +76,7 @@
 }
 
 .header__description {
+  height: fit-content;
   justify-self: end;
   font-weight: 700;
   background-color: var(--vivid-raspberry);
