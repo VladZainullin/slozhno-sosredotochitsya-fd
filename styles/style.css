@@ -1,3 +1,9 @@
+.column {
+  display: grid;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
 .page {
   background-color: var(--bg-color);
   padding: 10px;
@@ -75,6 +81,7 @@
 .header__theme-menu-list {
   display: flex;
   flex-direction: column;
+  flex-wrap: nowrap;
   gap: 10px;
 }
 
@@ -123,9 +130,6 @@
 }
 
 .main {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
   gap: 50px;
   margin-block-end: 50px;
 }
@@ -141,16 +145,10 @@
 }
 
 .card-list {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
   gap: 20px;
 }
 
 .card {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
   gap: 10px
 }
 
@@ -177,9 +175,6 @@
 }
 
 .factors {
-  display: grid;
-  flex-direction: column;
-  flex-wrap: nowrap;
   gap: 20px;
 }
 
