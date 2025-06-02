@@ -224,11 +224,12 @@
 }
 
 .gallery__item {
-  inline-size: calc(100vw - 20px);
+  inline-size: 100%;
   block-size: auto;
 }
 
 .gallery__image {
+  display: block;
   block-size: 100%;
   inline-size: 100%;
   object-fit: cover;
