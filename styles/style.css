@@ -6,9 +6,6 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-}
-
-.text {
   font-family: var(--font-family), sans-serif;
   line-height: 23.4px;
   text-rendering: optimizeSpeed;
