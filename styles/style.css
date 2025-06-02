@@ -32,6 +32,10 @@
   font-weight: 700;
 }
 
+.label_font-weight_normal {
+  font-weight: 400;
+}
+
 .caption {
   font-weight: 700;
   color: var(--accent-color);
