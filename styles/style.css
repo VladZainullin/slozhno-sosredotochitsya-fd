@@ -49,7 +49,7 @@
   border-right: none;
 }
 
-.rec::before {
+.header_record::before {
   content: 'REC';
   position: absolute;
   top: 1px;
@@ -57,7 +57,7 @@
   color: var(--accent-color);
 }
 
-.rec::after {
+.header_record::after {
   content: '';
   position: absolute;
   top: 8px;
