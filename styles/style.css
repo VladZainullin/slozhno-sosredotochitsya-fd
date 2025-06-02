@@ -1,10 +1,8 @@
 .page {
   background-color: var(--bg-color);
   padding: 10px;
-  display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  gap: 40px;
   background-image: var(--bg-image);
   background-attachment: fixed;
   background-size: cover;
@@ -142,6 +140,10 @@
   gap: 50px;
 }
 
+.header + .main {
+  margin-block-end: 40px;
+}
+
 .difficulties {
   display: grid;
   gap: 20px;
@@ -247,6 +249,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.main + .footer {
+  margin-block-end: 40px;
 }
 
 .footer__title {
