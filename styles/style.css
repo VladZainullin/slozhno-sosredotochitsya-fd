@@ -142,6 +142,10 @@
   margin-block-end: 40px;
 }
 
+.header + .main {
+  margin-block-end: 40px;
+}
+
 .difficulties {
   display: grid;
   gap: 20px;
@@ -247,6 +251,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.main + .footer {
+  margin-block-end: 40px;
 }
 
 .footer__title {
