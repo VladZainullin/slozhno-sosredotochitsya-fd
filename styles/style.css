@@ -24,7 +24,7 @@
   grid-template-rows: 1fr min-content 1fr;
   min-block-size: calc(100vh - 20px);
   position: relative;
-  margin-block-end: 40px;
+  margin-block-end: 50px;
 }
 
 .decorated-zone::before {
@@ -137,10 +137,6 @@
   flex-direction: column;
   flex-wrap: nowrap;
   gap: 50px;
-  margin-block-end: 40px;
-}
-
-.header + .main {
   margin-block-end: 40px;
 }
 
