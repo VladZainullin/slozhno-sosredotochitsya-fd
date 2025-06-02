@@ -12,6 +12,22 @@
   font-size: 1.8rem;
 }
 
+.grid {
+  display: grid;
+}
+
+.big-space {
+  gap: 50px;
+}
+
+.medium-space {
+  gap: 20px;
+}
+
+.small-space {
+  gap: 10px
+}
+
 .title {
   font-weight: 700;
   font-size: clamp(11.6rem, 11.2184rem + 1.0178vw, 12rem);
@@ -21,7 +37,7 @@
 }
 
 .column {
-  display: grid;
+  display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
 }
@@ -59,7 +75,6 @@
 }
 
 .header {
-  display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr min-content 1fr;
   min-block-size: calc(100vh - 20px);
@@ -118,10 +133,6 @@
   align-self: center;
 }
 
-.header__theme-menu-list {
-  gap: 10px;
-}
-
 .header__theme-menu-button {
   block-size: 26px;
   inline-size: 70px;
@@ -156,35 +167,7 @@
 }
 
 .main {
-  gap: 50px;
   margin-block-end: 50px;
-}
-
-.difficulties {
-  display: grid;
-  gap: 20px;
-}
-
-.card-list {
-  gap: 20px;
-}
-
-.card {
-  gap: 10px
-}
-
-.factors {
-  gap: 20px;
-}
-
-.recommendations {
-  display: grid;
-  gap: 20px;
-}
-
-.gallery {
-  display: grid;
-  gap: 10px;
 }
 
 .gallery__item {
@@ -198,11 +181,6 @@
   block-size: auto;
   object-fit: cover;
   object-position: center;
-}
-
-.gallery__content {
-  display: grid;
-  gap: 10px;
 }
 
 .footer {
