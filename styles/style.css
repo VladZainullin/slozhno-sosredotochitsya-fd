@@ -1,8 +1,6 @@
 .page {
   background-color: var(--bg-color);
   padding: 10px;
-  flex-direction: column;
-  flex-wrap: nowrap;
   background-image: var(--bg-image);
   background-attachment: fixed;
   background-size: cover;
@@ -139,6 +137,10 @@
   flex-direction: column;
   flex-wrap: nowrap;
   gap: 50px;
+  margin-block-end: 40px;
+}
+
+.header + .main {
   margin-block-end: 40px;
 }
 
