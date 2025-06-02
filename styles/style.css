@@ -24,52 +24,48 @@
   margin-block-end: 50px;
 }
 
-.decorated-zone::before {
-  content: '';
-  top: 0;
-  right: 0;
-  position: absolute;
-  border-style: solid;
-  border-color: var(--accent-color);
-  border-width: 1px;
-  border-bottom: none;
-  border-left: none;
-  block-size: 25px;
-  inline-size: 25px;
-}
-
+.decorated-zone::before,
 .decorated-zone::after {
   content: '';
   position: absolute;
-  bottom: 0;
-  left: 0;
   border-style: solid;
   border-color: var(--accent-color);
   border-width: 1px;
-  border-top: none;
-  border-right: none;
   block-size: 25px;
   inline-size: 25px;
 }
 
-.rec {
-  justify-self: end;
+.decorated-zone::before {
+  top: 0;
+  right: 0;
+  border-bottom: none;
+  border-left: none;
+}
+
+.decorated-zone::after {
+  bottom: 0;
+  left: 0;
+  border-top: none;
+  border-right: none;
+}
+
+.rec::before {
+  content: 'REC';
   position: absolute;
-  align-items: center;
-  display: flex;
-  gap: 10px;
-  color: var(--accent-color);
-  text-transform: uppercase;
-  right: 9px;
   top: 1px;
+  right: 28px;
+  color: var(--accent-color);
 }
 
 .rec::after {
-  content: "";
+  content: '';
+  position: absolute;
+  top: 8px;
+  right: 9px;
+  width: 9px;
+  height: 9px;
   border-radius: 50%;
   background-color: var(--accent-color);
-  block-size: 9px;
-  inline-size: 9px;
   box-shadow: 0 0 4px 2px var(--accent-color);
 }
 
