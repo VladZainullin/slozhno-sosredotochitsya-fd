@@ -16,9 +16,6 @@
 }
 
 .header {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr min-content 1fr;
@@ -153,6 +150,7 @@
 .card-list {
   display: flex;
   flex-direction: column;
+  flex-wrap: nowrap;
   gap: 20px;
 }
 
