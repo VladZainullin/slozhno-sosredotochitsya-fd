@@ -26,6 +26,12 @@
   gap: 50px;
 }
 
+@media (max-width >= 768px) {
+  .big-space {
+    gap: 80px;
+  }
+}
+
 .medium-space {
   gap: 20px;
 }
@@ -92,6 +98,7 @@
   .header {
     grid-template-columns: repeat(2, 1fr);
     min-block-size: calc(100vh - 40px);
+    margin-block-end: 80px;
   }
 }
 
@@ -197,6 +204,16 @@
 
 .main {
   margin-block-end: 50px;
+}
+
+@media (width >= 768px) {
+  .factors {
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .factors__description {
+    grid-column: 2;
+  }
 }
 
 .gallery__item {
