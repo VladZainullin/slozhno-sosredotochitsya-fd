@@ -129,8 +129,7 @@
 
 .header__theme-menu {
   grid-row: 1;
-  justify-self: end;
-  align-self: center;
+  place-self: center end;
 }
 
 .header__theme-menu-button {
@@ -156,14 +155,12 @@
 .header__title {
   grid-row: 2;
   text-shadow: 4px 4px var(--accent-color);
-  align-self: center;
-  justify-self: start;
+  place-self: center start;
 }
 
 .header__description {
   grid-row: 3;
-  align-self: center;
-  justify-self: end;
+  place-self: center end;
 }
 
 .main {
@@ -187,8 +184,7 @@
   position: relative;
   min-block-size: calc(100vh - 20px);
   display: flex;
-  justify-content: center;
-  align-items: center;
+  place-items: center;
 }
 
 .footer__title {
