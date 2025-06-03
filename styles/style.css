@@ -40,6 +40,10 @@
   gap: 10px
 }
 
+.inherit-space {
+  gap: inherit;
+}
+
 .title {
   font-weight: 700;
   font-size: clamp(11.6rem, 11.2184rem + 1.0178vw, 12rem);
@@ -225,6 +229,21 @@
 
   .factors__description {
     grid-column: 1 / span 4;
+  }
+}
+
+@media (width >= 768px) {
+  .recommendations {
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+  }
+
+  .recommendations__title {
+    grid-column: 1;
+  }
+
+  .recommendations__list {
+    grid-column: 2;
   }
 }
 
