@@ -207,11 +207,11 @@
 }
 
 @media (width >= 768px) {
-  .factors {
+  .difficulties {
     grid-template-columns: 1fr 2fr;
   }
 
-  .factors__description {
+  .difficulties__description {
     grid-column: 2;
   }
 }
