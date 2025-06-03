@@ -247,15 +247,48 @@
   }
 }
 
+@media (width >= 768px) {
+  .gallery {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);
+  }
+
+  .gallery__sunset-image {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+  }
+
+  .gallery__ice-cream-image {
+    grid-column: 3;
+    grid-row: 1 / span 2;
+  }
+
+  .gallery__tape-image {
+    grid-column: 1;
+    grid-row: 2 / span 2;
+  }
+
+  .gallery__books-image {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  .gallery__street-image {
+    grid-row: 3;
+    grid-column: 2 / span 2;
+  }
+}
+
 .gallery__item {
+  display: block;
   inline-size: 100%;
-  block-size: auto;
+  block-size: 100%;
 }
 
 .gallery__image {
   display: block;
   inline-size: 100%;
-  block-size: auto;
+  block-size: 100%;
   object-fit: cover;
   object-position: center;
 }
