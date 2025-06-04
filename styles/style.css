@@ -186,6 +186,10 @@
   }
 }
 
+.header__theme-menu-button_active {
+  pointer-events: none;
+}
+
 .header__theme-menu-button {
   block-size: 26px;
   inline-size: 70px;
