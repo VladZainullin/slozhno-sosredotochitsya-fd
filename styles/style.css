@@ -235,11 +235,15 @@
   .difficulties {
     grid-template-columns: 1fr 2fr;
   }
+}
 
+@media (width >= 768px) {
   .difficulties__description {
     grid-column: 2;
   }
+}
 
+@media (width >= 768px) {
   .factors {
     grid-template-columns: repeat(4, 1fr);
   }
