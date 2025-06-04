@@ -52,6 +52,12 @@
   color: var(--title-color);
 }
 
+@media (width >= 768px) {
+  .title {
+    font-size: clamp(12rem, 0.9rem + 14.4531vw, 15.7rem);
+  }
+}
+
 .column {
   display: flex;
   flex-direction: column;
@@ -206,7 +212,6 @@
   .header__title {
     grid-column: span 2;
     margin-inline-start: -20px;
-    font-size: clamp(12rem, 0.9rem + 14.4531vw, 15.7rem);
   }
 }
 
@@ -248,7 +253,7 @@
 }
 
 @media (width >= 768px) {
-  .difficulties__description {
+  .difficulties__list {
     grid-column: 2;
   }
 }
@@ -290,16 +295,34 @@
   }
 }
 
+.recommendations {
+  gap: 20px;
+}
+
 @media (width >= 768px) {
   .recommendations {
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 1fr;
   }
+}
 
+@media (width >= 1024px) {
+  .recommendations {
+    gap: 12px;
+  }
+}
+
+@media (width >= 768px) {
   .recommendations__title {
     grid-column: 1;
   }
+}
 
+.recommendations__list {
+  gap: 20px;
+}
+
+@media (width >= 768px) {
   .recommendations__list {
     grid-column: 2;
   }
