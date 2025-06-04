@@ -312,13 +312,15 @@
   }
 }
 
-.recommendations__list {
-  gap: 20px;
+@media (width >= 768px) {
+  .recommendations__list {
+    grid-column: 2;
+  }
 }
 
 @media (width >= 768px) {
   .recommendations__list {
-    grid-column: 2;
+    grid-column: 2 / span 2;
   }
 }
 
