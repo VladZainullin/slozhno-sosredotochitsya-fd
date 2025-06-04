@@ -162,6 +162,20 @@
   }
 }
 
+@media (width >= 1024px) {
+  .header__theme-menu {
+    grid-column: 1 / span 2;
+    justify-self: center;
+    align-self: start;
+  }
+}
+
+@media (width >= 1024px) {
+  .header__theme-menu-list {
+    flex-direction: row;
+  }
+}
+
 .header__theme-menu-button {
   block-size: 26px;
   inline-size: 70px;
@@ -192,6 +206,7 @@
   .header__title {
     grid-column: span 2;
     margin-inline-start: -20px;
+    font-size: clamp(12rem, 0.9rem + 14.4531vw, 15.7rem);
   }
 }
 
