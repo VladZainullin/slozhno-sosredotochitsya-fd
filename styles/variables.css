@@ -9,4 +9,5 @@
   --bg-color: #000028;
   --bg-image: url('../images/cover-image-dark.png');
   --font-family: IBM Plex Mono;
+  --rec-display: block;
 }

@@ -137,17 +137,21 @@
   border-right: none;
 }
 
-.header_record::before {
-  content: 'REC';
+.header__record::after,
+.header__record::before {
+  display: var(--rec-display);
   position: absolute;
+}
+
+.header__record::before {
+  content: 'REC';
   top: 1px;
   right: 28px;
   color: var(--accent-color);
 }
 
-.header_record::after {
+.header__record::after {
   content: '';
-  position: absolute;
   top: 8px;
   right: 9px;
   width: 9px;

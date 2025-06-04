@@ -15,6 +15,7 @@
   --bg-color: rgba(255, 241, 247, 1);
   --bg-image: url('../images/cover-image-light.png');
   --font-family: IBM Plex Mono;
+  --rec-display: none;
 }
 
 .theme-light .page {
