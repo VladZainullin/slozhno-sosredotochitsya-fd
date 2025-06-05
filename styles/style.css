@@ -101,7 +101,7 @@
 @media (width >= 768px) {
   .header {
     grid-template-columns: repeat(2, 1fr);
-    margin-block-end: 80px;
+    margin-block-end: 60px;
     padding: 0 20px;
   }
 }
@@ -124,11 +124,25 @@
   border-left: none;
 }
 
+@media (width >= 768px) {
+  .decorated-zone::before {
+    top: 20px;
+    right: 20px;
+  }
+}
+
 .decorated-zone::after {
   bottom: 10px;
   left: 10px;
   border-top: none;
   border-right: none;
+}
+
+@media (width >= 768px) {
+  .decorated-zone::after {
+    bottom: 20px;
+    left: 20px;
+  }
 }
 
 .header__record::after,
@@ -250,6 +264,12 @@
   }
 }
 
+@media (width >= 1024px) {
+  .difficulties {
+    grid-template-columns: 1fr 2.06fr;
+  }
+}
+
 @media (width >= 768px) {
   .difficulties__list {
     grid-column: 2;
@@ -304,7 +324,7 @@
 
 @media (width >= 768px) {
   .recommendations {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 2fr;
     grid-template-rows: 1fr;
     padding: 0 20px;
   }
