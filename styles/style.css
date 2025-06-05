@@ -92,16 +92,17 @@
 .header {
   grid-template-columns: 1fr;
   grid-template-rows: 1fr min-content 1fr;
-  min-block-size: calc(100vh - 20px);
+  min-block-size: max(100vh, 668px);
   position: relative;
-  margin-block-end: 50px;
+  margin-block-end: 40px;
+  padding: 0 10px;
 }
 
 @media (width >= 768px) {
   .header {
     grid-template-columns: repeat(2, 1fr);
-    min-block-size: calc(100vh - 40px);
     margin-block-end: 80px;
+    padding: 0 20px;
   }
 }
 
@@ -117,15 +118,15 @@
 }
 
 .decorated-zone::before {
-  top: 0;
-  right: 0;
+  top: 10px;
+  right: 10px;
   border-bottom: none;
   border-left: none;
 }
 
 .decorated-zone::after {
-  bottom: 0;
-  left: 0;
+  bottom: 10px;
+  left: 10px;
   border-top: none;
   border-right: none;
 }
@@ -228,28 +229,24 @@
 }
 
 .main {
-  margin-block-end: 50px;
+  margin-block-end: 40px;
 }
 
 @media (width >= 768px) {
   .main {
-    margin-block-end: 80px;
+    margin-block-end: 70px;
   }
 }
 
 .difficulties {
   gap: 20px;
+  padding: 0 10px;
 }
 
 @media (width >= 768px) {
   .difficulties {
     grid-template-columns: 1fr 2fr;
-  }
-}
-
-@media (width >= 1024px) {
-  .difficulties {
-    column-gap: 12px;
+    padding: 0 20px;
   }
 }
 
@@ -259,9 +256,14 @@
   }
 }
 
+.factors {
+  padding: 0 10px;
+}
+
 @media (width >= 768px) {
   .factors {
     grid-template-columns: repeat(4, 1fr);
+    padding: 0 20px;
   }
 }
 
@@ -296,10 +298,15 @@
   }
 }
 
+.recommendations {
+  padding: 0 10px;
+}
+
 @media (width >= 768px) {
   .recommendations {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
+    padding: 0 20px;
   }
 }
 
@@ -323,11 +330,13 @@
 
 .gallery {
   gap: 10px;
+  padding: 0 10px;
 }
 
 @media (width >= 768px) {
   .gallery {
     gap: 20px;
+    padding: 0 20px;
   }
 
   .gallery__content {
@@ -377,13 +386,14 @@
 
 .footer {
   position: relative;
-  min-block-size: calc(100vh - 20px);
+  min-block-size: max(100vh, 668px);
   place-items: center center;
+  padding: 10px;
 }
 
 @media (width >= 768px) {
   .footer {
-    min-block-size: calc(100vh - 40px);
+    min-block-size: max(100vh, 668px);
   }
 }
 
