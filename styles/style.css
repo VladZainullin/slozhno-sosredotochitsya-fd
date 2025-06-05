@@ -1,6 +1,5 @@
 .page {
   background-color: var(--bg-color);
-  padding: 10px;
   background-image: var(--bg-image);
   background-attachment: fixed;
   background-size: cover;
@@ -10,12 +9,6 @@
   line-height: 23.4px;
   text-rendering: optimizeSpeed;
   font-size: 1.8rem;
-}
-
-@media (width >= 768px) {
-  .page {
-    padding: 20px;
-  }
 }
 
 .grid {
