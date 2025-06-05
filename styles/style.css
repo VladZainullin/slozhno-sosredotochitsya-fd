@@ -95,14 +95,14 @@
   min-block-size: max(100vh, 668px);
   position: relative;
   margin-block-end: 40px;
-  padding: 0 10px;
+  padding: 10px;
 }
 
 @media (width >= 768px) {
   .header {
     grid-template-columns: repeat(2, 1fr);
     margin-block-end: 60px;
-    padding: 0 20px;
+    padding: 20px;
   }
 }
 
