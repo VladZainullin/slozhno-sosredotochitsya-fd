@@ -196,6 +196,7 @@
 
 .header__theme-menu-button_active {
   pointer-events: none;
+  border: 1px solid color-mix(in srgb, var(--accent-color) 50%, transparent);
 }
 
 .header__theme-menu-button {
