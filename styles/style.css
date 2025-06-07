@@ -111,7 +111,7 @@
   content: '';
   position: absolute;
   border-style: solid;
-  border-color: var(--accent-color);
+  border-color: var(--decorated-zone-color);
   border-width: 1px;
   block-size: 25px;
   inline-size: 25px;
