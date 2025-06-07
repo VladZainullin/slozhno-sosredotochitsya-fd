@@ -2,7 +2,7 @@
   --color: rgba(53, 52, 48, 1);
   --button-color: rgba(53, 52, 48, 1);
   --decorated-zone-color: rgba(53, 52, 48, 1);
-  --header-color: rgba(53, 52, 48, 1);
+  --caption-color: rgba(53, 52, 48, 1);
   --accent-color: rgba(255, 141, 203, 1);
   --title-color: rgba(255, 194, 230, 1);
   --bg-color: rgba(255, 241, 247, 1);
@@ -16,9 +16,10 @@
     --color: rgba(53, 52, 48, 1);
     --button-color: rgba(53, 52, 48, 1);
     --decorated-zone-color: rgba(53, 52, 48, 1);
-    --header-color: rgba(53, 52, 48, 1);
+    --caption-color: rgba(53, 52, 48, 1);
     --accent-color: rgba(255, 141, 203, 1);
     --title-color: rgba(255, 194, 230, 1);
+    --label-color: rgba(53, 52, 48, 1);
     --bg-color: rgba(255, 241, 247, 1);
     --bg-image: url('../images/cover-image-light.png');
     --font-family: IBM Plex Mono, monospace;
