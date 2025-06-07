@@ -153,20 +153,34 @@
 
 .header__record::before {
   content: 'REC';
-  top: 1px;
-  right: 28px;
+  top: 11px;
+  right: 38px;
   color: var(--accent-color);
+}
+
+@media (width >= 768px) {
+  .header__record::before {
+    top: 21px;
+    right: 48px;
+  }
 }
 
 .header__record::after {
   content: '';
-  top: 8px;
-  right: 9px;
+  top: 18px;
+  right: 19px;
   inline-size: 9px;
   block-size: 9px;
   border-radius: 50%;
   background-color: var(--accent-color);
   box-shadow: 0 0 4px 2px var(--accent-color);
+}
+
+@media (width >= 768px) {
+  .header__record::after {
+    top: 28px;
+    right: 29px;
+  }
 }
 
 .header__theme-menu {
