@@ -210,7 +210,7 @@
 
 .header__theme-menu-button_active {
   pointer-events: none;
-  border: 1px solid color-mix(in srgb, var(--accent-color) 50%, transparent);
+  border: 1px solid color-mix(in srgb, var(--button-color) 50%, transparent);
 }
 
 .header__theme-menu-button {
@@ -219,18 +219,18 @@
   text-transform: lowercase;
   appearance: none;
   border: none;
-  color: var(--accent-color);
+  color: var(--button-color);
   background-color: transparent;
   cursor: pointer;
 }
 
 .header__theme-menu-button:hover {
-  border: 1px solid color-mix(in srgb, var(--accent-color) 50%, transparent);
+  border: 1px solid color-mix(in srgb, var(--button-color) 50%, transparent);
 }
 
 .header__theme-menu-button:focus-visible {
   outline: none;
-  border-bottom: 1px solid var(--accent-color);
+  border-bottom: 1px solid var(--button-color);
 }
 
 .header__title {
