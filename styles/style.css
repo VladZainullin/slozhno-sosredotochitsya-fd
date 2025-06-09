@@ -172,7 +172,7 @@
 
 .header__theme-menu-button_active {
   pointer-events: none;
-  border: 1px solid color-mix(in srgb, var(--button-color) 50%, transparent);
+  border: 1px solid var(--button-color);
 }
 
 .header__title {
